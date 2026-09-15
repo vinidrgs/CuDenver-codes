@@ -1,11 +1,11 @@
-/********************************************
+/*********************************************************8***********
  * DoubleLinkedList.cpp file. It contains the function definitions for DoubleLinkedList.h. 
  * The constructors allow creating a node with only Data or with Data and pointers. 
  * The defined functions allow manipulating the nodes in a list, printing the information, 
  * finding node positions, and erasing all the nodes.
  * Author: Vini D.
  * Version: 07/04/2026
- *********************************************/
+ *****************************************************************/
 
 #include "DoubleLinkedList.h"
 #include <iostream>
