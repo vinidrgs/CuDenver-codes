@@ -1,10 +1,10 @@
-/********************************************
+/****************************************************************************************************
  * The DoubleLinkedList.h file contains two separate classes (Node and DoubleLinkedList). 
  * The Node class holds the data needed to create a new node and its pointers. 
  * The DoubleLinkedList class has a constructor and the functions necessary to manage the nodes in a Double Linked List.
  * Author: Vini Dargas
  * Version: 07/04/2026
- *********************************************/
+ *******************************************************************************/
 
 class Node{
     private:
@@ -14,8 +14,8 @@ class Node{
 
     public:
     Node();//Default Constructor
-    Node(const int newData);//Parameterized Constructor just data poiters are set null by default
-    Node(const int newData, Node* nextNodePtr, Node* prevNodePtr);//Parameterized Constructor poiters are set
+    Node(const int newData);//Parameterized Constructor
+    Node(const int newData, Node* nextNodePtr, Node* prevNodePtr);//Parameterized Constructor poiters are set null by default
 
     //Setters
     void setItem(const int newData);
